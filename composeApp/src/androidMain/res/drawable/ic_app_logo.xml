@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- App Logo: Bathroom scale with checkmark matching the design -->
+    
+    <!-- Light pastel blue-green rounded square background (squircle) -->
+    <path
+        android:pathData="M15,15 Q15,15 15,25 L15,175 Q15,185 25,185 L175,185 Q185,185 185,175 L185,25 Q185,15 175,15 L25,15 Q15,15 15,25 Z"
+        android:fillColor="#B2DFDB" />
+    
+    <!-- White bathroom scale silhouette - centered -->
+    <!-- Wide rounded rectangular base/platform -->
+    <path
+        android:pathData="M45,125 Q45,135 55,135 L145,135 Q155,135 155,125 L155,155 Q155,165 145,165 L55,165 Q45,165 45,155 Z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Curved dome-like top section (display) - centered on base, slightly towards upper center -->
+    <path
+        android:pathData="M70,90 Q70,75 100,75 Q130,75 130,90 Q130,105 125,105 L75,105 Q70,105 70,90 Z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Green checkmark on lower right - solid thick checkmark -->
+    <path
+        android:pathData="M135,150 L140,155 L155,140 L160,145 L140,165 L135,160 Z"
+        android:fillColor="#4CAF50" />
+</vector>
+

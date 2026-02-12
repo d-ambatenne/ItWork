@@ -1,0 +1,10 @@
+Exception in thread "Thread-2" java.nio.file.NoSuchFileException: /Users/denis.ambatenne/Downloads/ItWork/composeApp/build/run/desktopMain/.lock
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:224)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369)
+	at org.jetbrains.compose.reload.core.LockFile.withLock(LockFile.kt:26)
+	at org.jetbrains.compose.reload.agent.PidfileKt.createPidfile$lambda$2(pidfile.kt:35)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

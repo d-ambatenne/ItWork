@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.jdt.ls.java.home": "/Users/denis.ambatenne/Library/Java/JavaVirtualMachines/jbr-21.0.5/Contents/Home",
+    "kotlin.languageServer.enabled": true,
+    "terminal.integrated.env.osx": {
+        "JAVA_HOME": "/Users/denis.ambatenne/Library/Java/JavaVirtualMachines/jbr-21.0.5/Contents/Home"
+    }
+}

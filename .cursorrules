@@ -1,0 +1,8 @@
+# Cursor Rules for ItWork Project
+
+## Hot Reload MCP Server
+Always use the hotreload MCP server for hot reload operations. When making code changes that require hot reloading:
+- Use the hotreload MCP server tools to trigger reloads
+- Check status using hotreload MCP server status tools
+- Read logs using hotreload MCP server log tools
+- Prefer using `mcp_hot-reload_hot_reload_trigger_and_wait` for automated reload workflows

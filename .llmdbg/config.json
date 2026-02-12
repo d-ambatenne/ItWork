@@ -1,0 +1,8 @@
+{
+    "project_id": "ItWork",
+    "verify_profile": "android_fast",
+    "gradle_tasks": [
+        ":composeApp:compileDebugKotlinAndroid",
+        ":composeApp:testDebugUnitTest"
+    ]
+}

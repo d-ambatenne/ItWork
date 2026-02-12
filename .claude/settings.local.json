@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "WebSearch",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(echo:*)",
+      "Bash($ANDROID_HOME/platform-tools/adb devices:*)",
+      "Bash($ANDROID_HOME/emulator/emulator:*)",
+      "Bash(emulator:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(./gradlew :composeApp:installDebug:*)",
+      "Bash($ANDROID_HOME/platform-tools/adb -s emulator-5554 shell am start -n org.example.project/.MainActivity)",
+      "Bash($ANDROID_HOME/platform-tools/adb:*)",
+      "mcp__llmdbg__llmdbg_postcheck",
+      "Bash(./gradlew:*)",
+      "mcp__llmdbg__llmdbg_init"
+    ]
+  }
+}
