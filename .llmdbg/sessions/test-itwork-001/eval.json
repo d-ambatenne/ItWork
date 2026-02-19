@@ -1,0 +1,83 @@
+{
+    "session_id": "test-itwork-001",
+    "project_id": "ItWork",
+    "evaluated_at": "2026-02-12T15:20:02.901978Z",
+    "dimensions": {
+        "code_smells": {
+            "score": 0.6799999999999999,
+            "findings": [
+                {
+                    "rule": "DEEP_NESTING",
+                    "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+                    "line": 18,
+                    "message": "Function bulkImport is nested too deeply.",
+                    "severity": "MAJOR"
+                },
+                {
+                    "rule": "EMPTY_CATCH",
+                    "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+                    "line": 29,
+                    "message": "Empty catch block detected. If the exception can be safely ignored, name the exception according to one of the exemptions as per the configuration of this rule.",
+                    "severity": "CRITICAL"
+                },
+                {
+                    "rule": "TODO_FIXME",
+                    "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+                    "line": 26,
+                    "message": "This comment contains 'TODO' that has been defined as forbidden.",
+                    "severity": "MINOR"
+                },
+                {
+                    "rule": "MAGIC_NUMBER",
+                    "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+                    "line": 22,
+                    "message": "This expression contains a magic number. Consider defining it to a well named constant.",
+                    "severity": "MINOR"
+                },
+                {
+                    "rule": "MAGIC_NUMBER",
+                    "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+                    "line": 25,
+                    "message": "This expression contains a magic number. Consider defining it to a well named constant.",
+                    "severity": "MINOR"
+                }
+            ]
+        },
+        "concurrency": {
+            "score": 1.0,
+            "findings": []
+        },
+        "build_cycles": {
+            "score": 1.0,
+            "total_attempts": 1,
+            "first_pass_attempt": 1,
+            "wasted_cycles": 0
+        },
+        "test_health": {
+            "score": 0.75,
+            "tests_pass": true,
+            "test_failures": 0,
+            "new_tests_added": false,
+            "test_lines_added": 0,
+            "test_lines_deleted": 0
+        }
+    },
+    "overall_score": 0.8290000000000001,
+    "code_fix_suggestions": [
+        {
+            "rule": "DEEP_NESTING",
+            "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+            "line": 18,
+            "message": "Function bulkImport is nested too deeply.",
+            "severity": "MAJOR"
+        },
+        {
+            "rule": "EMPTY_CATCH",
+            "file": "file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt",
+            "line": 29,
+            "message": "Empty catch block detected. If the exception can be safely ignored, name the exception according to one of the exemptions as per the configuration of this rule.",
+            "severity": "CRITICAL"
+        }
+    ],
+    "pipeline_suggestions": []
+}

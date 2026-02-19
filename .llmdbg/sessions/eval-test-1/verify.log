@@ -1,0 +1,95 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Reusing configuration cache.
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForAndroidUnitTestDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidUnitTest NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidUnitTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidUnitTestDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidUnitTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidUnitTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:preDebugUnitTestBuild UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidUnitTestDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForCommonTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForCommonTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidUnitTestDebug NO-SOURCE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain UP-TO-DATE
+> Task :composeApp:generateDebugResValues UP-TO-DATE
+> Task :composeApp:javaPreCompileDebug UP-TO-DATE
+> Task :composeApp:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :composeApp:extractDeepLinksDebug UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain UP-TO-DATE
+> Task :composeApp:generateDebugResources UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForAndroidMain UP-TO-DATE
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :composeApp:packageDebugResources UP-TO-DATE
+> Task :composeApp:parseDebugLocalResources UP-TO-DATE
+> Task :composeApp:mergeDebugResources UP-TO-DATE
+> Task :composeApp:mapDebugSourceSetPaths UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata UP-TO-DATE
+> Task :composeApp:processDebugMainManifest UP-TO-DATE
+> Task :composeApp:processDebugManifest UP-TO-DATE
+> Task :composeApp:processDebugManifestForPackage UP-TO-DATE
+> Task :composeApp:processDebugResources UP-TO-DATE
+> Task :composeApp:kspDebugKotlinAndroid
+
+> Task :composeApp:compileDebugKotlinAndroid
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:50:62 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:57:73 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:63:56 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:73:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:74:15 'fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?): Unit' is deprecated. This method has been deprecated in favor of using the Activity Result API
+      which brings increased type safety via an {@link ActivityResultContract} and the prebuilt
+      contracts for common intents available in
+      {@link androidx.activity.result.contract.ActivityResultContracts}, provides hooks for
+      testing, and allow receiving results in separate, testable classes independent from your
+      activity. Use
+      {@link #registerForActivityResult(ActivityResultContract, ActivityResultCallback)}
+      with the appropriate {@link ActivityResultContract} and handling the result in the
+      {@link ActivityResultCallback#onActivityResult(Object) callback}.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/MainActivity.kt:99:78 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:4:8 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:26:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:40:38 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:52:27 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:53:36 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:68:27 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:69:32 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:77:27 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:78:37 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:100:36 'static fun getHistoryClient(p0: Context, p1: GoogleSignInAccount): HistoryClient' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/androidMain/kotlin/org/example/project/fitness/StepCountProvider.android.kt:132:43 'static fun getHistoryClient(p0: Context, p1: GoogleSignInAccount): HistoryClient' is deprecated. Deprecated in Java.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/App.kt:65:62 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/fitness/StepCountProvider.kt:9:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/ui/progress/ProgressScreen.kt:205:53 'val Icons.Filled.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsWalk.
+w: file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/ui/progress/ProgressScreen.kt:694:57 'val Icons.Filled.Note: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Note.
+
+> Task :composeApp:compileDebugJavaWithJavac NO-SOURCE
+> Task :composeApp:processDebugJavaRes UP-TO-DATE
+> Task :composeApp:bundleDebugClassesToCompileJar
+> Task :composeApp:kspDebugUnitTestKotlinAndroid SKIPPED
+> Task :composeApp:bundleDebugClassesToRuntimeJar
+> Task :composeApp:compileDebugUnitTestKotlinAndroid
+> Task :composeApp:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :composeApp:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :composeApp:testDebugUnitTest
+
+BUILD SUCCESSFUL in 19s
+30 actionable tasks: 7 executed, 23 up-to-date
+Configuration cache entry reused.

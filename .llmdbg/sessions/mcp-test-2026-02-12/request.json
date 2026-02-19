@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "session_id": "mcp-test-2026-02-12",
+    "project_id": null,
+    "repo_path": "/Users/denis.ambatenne/Downloads/ItWork",
+    "attempt_index": 1,
+    "task_summary": "Smoke test of llmdbg MCP server on ItWork repo",
+    "prompt_text": null,
+    "agent": null,
+    "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost": 0.0,
+        "currency": "USD"
+    },
+    "context_manifest": null,
+    "verify_profile": null,
+    "verify_overrides": null
+}

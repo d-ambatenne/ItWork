@@ -1,0 +1,13 @@
+{
+    "attempt_index": 1,
+    "retries_so_far": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "files_changed": 2,
+    "lines_added": 17,
+    "lines_deleted": 2,
+    "compile_pass": true,
+    "tests_pass": true,
+    "acceptance": "UNKNOWN",
+    "satisfaction": 0
+}

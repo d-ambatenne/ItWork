@@ -1,0 +1,59 @@
+complexity:
+  active: true
+  LongMethod:
+    active: true
+    threshold: 50
+  NestedBlockDepth:
+    active: true
+    threshold: 4
+  LongParameterList:
+    active: true
+    functionThreshold: 5
+    constructorThreshold: 6
+    ignoreDefaultParameters: true
+  LargeClass:
+    active: true
+    threshold: 200
+
+empty-blocks:
+  active: true
+  EmptyCatchBlock:
+    active: true
+
+style:
+  active: true
+  MagicNumber:
+    active: true
+    ignoreNumbers:
+      - '-1'
+      - '0'
+      - '1'
+      - '2'
+  ForbiddenComment:
+    active: true
+    values:
+      - 'TODO'
+      - 'FIXME'
+      - 'HACK'
+      - 'STOPSHIP'
+  ForbiddenSuppressions:
+    active: true
+
+coroutines:
+  active: true
+  GlobalCoroutineUsage:
+    active: true
+  InjectDispatcher:
+    active: true
+
+# Disable everything else
+comments:
+  active: false
+exceptions:
+  active: false
+naming:
+  active: false
+performance:
+  active: false
+potential-bugs:
+  active: false

@@ -1,8 +1,21 @@
 {
-    "project_id": "ItWork",
+    "project_id": "itwork",
     "verify_profile": "android_fast",
     "gradle_tasks": [
         ":composeApp:compileDebugKotlinAndroid",
         ":composeApp:testDebugUnitTest"
-    ]
+    ],
+    "eval_config": {
+        "enabled": true,
+        "min_severity_to_present": "MAJOR",
+        "pipeline_suggestions": true,
+        "llm": {
+            "provider": "ANTHROPIC",
+            "model": "claude-sonnet-4-20250514",
+            "api_key_env": "ANTHROPIC_AUTH_TOKEN",
+            "max_tokens": 1024,
+            "temperature": 0.3,
+            "base_url": "https://litellm.labs.jb.gg"
+        }
+    }
 }

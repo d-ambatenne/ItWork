@@ -1,0 +1,48 @@
+diff --git a/.llmdbg/config.json b/.llmdbg/config.json
+index bccfcb2..783b65f 100644
+--- a/.llmdbg/config.json
++++ b/.llmdbg/config.json
+@@ -1,8 +1,9 @@
+ {
+-    "project_id": "ItWork",
++    "project_id": "itwork",
+     "verify_profile": "android_fast",
+     "gradle_tasks": [
+         ":composeApp:compileDebugKotlinAndroid",
+         ":composeApp:testDebugUnitTest"
+-    ]
++    ],
++    "eval_config": null
+ }
+\ No newline at end of file
+diff --git a/.llmdbg/llmdbg.sqlite b/.llmdbg/llmdbg.sqlite
+index 6667ddb..a9a2cdb 100644
+Binary files a/.llmdbg/llmdbg.sqlite and b/.llmdbg/llmdbg.sqlite differ
+diff --git a/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt b/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt
+index 16b4073..f06bb83 100644
+--- a/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt
++++ b/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt
+@@ -14,6 +14,21 @@ class WeightRepository(private val weightDao: WeightDaoInterface) {
+     suspend fun deleteEntry(entry: WeightEntry) = weightDao.deleteEntry(entry)
+     
+     suspend fun deleteEntryById(id: Long) = weightDao.deleteEntryById(id)
+-}
+-
+ 
++    suspend fun bulkImport(entries: List<WeightEntry>): Int {
++        var count = 0
++        for (entry in entries) {
++            try {
++                if (entry.weight > 0 && entry.weight < 500) {
++                    weightDao.insertEntry(entry)
++                    count++
++                    if (count % 100 == 0) {
++                        // TODO: add progress callback
++                    }
++                }
++            } catch (e: Exception) {
++            }
++        }
++        return count
++    }
++}

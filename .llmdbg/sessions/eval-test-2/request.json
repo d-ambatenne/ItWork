@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "session_id": "eval-test-2",
+    "project_id": null,
+    "repo_path": "/Users/denis.ambatenne/Downloads/ItWork",
+    "attempt_index": 1,
+    "task_summary": "Multi-attempt session test",
+    "prompt_text": null,
+    "agent": null,
+    "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost": 0.0,
+        "currency": "USD"
+    },
+    "context_manifest": null,
+    "verify_profile": "android_fast",
+    "verify_overrides": null
+}

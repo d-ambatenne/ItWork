@@ -1,0 +1,7 @@
+{
+    "prompt_improvements": [
+        "Add constraints: minimal localized changes; avoid new deps; do not change public APIs unless required."
+    ],
+    "environment_improvements": [],
+    "workflow_improvements": []
+}

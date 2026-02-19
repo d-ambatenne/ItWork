@@ -1,0 +1,26 @@
+{
+    "session_id": "detekt-integration-test",
+    "project_id": "itwork",
+    "evaluated_at": "2026-02-12T13:41:10.708560Z",
+    "dimensions": {
+        "code_smells": null,
+        "concurrency": null,
+        "build_cycles": {
+            "score": 1.0,
+            "total_attempts": 1,
+            "first_pass_attempt": 1,
+            "wasted_cycles": 0
+        },
+        "test_health": {
+            "score": 0.75,
+            "tests_pass": true,
+            "test_failures": 0,
+            "new_tests_added": false,
+            "test_lines_added": 0,
+            "test_lines_deleted": 0
+        }
+    },
+    "overall_score": 0.85,
+    "code_fix_suggestions": [],
+    "pipeline_suggestions": []
+}

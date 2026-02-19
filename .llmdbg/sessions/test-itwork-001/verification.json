@@ -1,0 +1,21 @@
+{
+    "status": "PASS",
+    "started_at": "2026-02-12T15:20:01.081105Z",
+    "ended_at": "2026-02-12T15:20:01.796547Z",
+    "duration_ms": 715,
+    "gradle": {
+        "exit_code": 0,
+        "tasks": [
+            {
+                "name": ":composeApp:compileDebugKotlinAndroid",
+                "exit_code": 0,
+                "duration_ms": 715
+            },
+            {
+                "name": ":composeApp:testDebugUnitTest",
+                "exit_code": 0,
+                "duration_ms": 715
+            }
+        ]
+    }
+}

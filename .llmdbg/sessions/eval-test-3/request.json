@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "session_id": "eval-test-3",
+    "project_id": null,
+    "repo_path": "/Users/denis.ambatenne/Downloads/ItWork",
+    "attempt_index": 2,
+    "task_summary": "Multi-attempt build cycle test",
+    "prompt_text": null,
+    "agent": null,
+    "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost": 0.0,
+        "currency": "USD"
+    },
+    "context_manifest": null,
+    "verify_profile": null,
+    "verify_overrides": null
+}

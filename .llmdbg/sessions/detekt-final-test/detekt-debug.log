@@ -1,0 +1,11 @@
+llmdbg-detekt: found at /usr/local/bin/detekt
+llmdbg-detekt: 1 changed kt/java files: [/Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt]
+llmdbg-detekt: exitCode=2 outputPath=/Users/denis.ambatenne/Downloads/ItWork/.llmdbg/sessions/detekt-final-test/detekt.sarif.json stderr=
+llmdbg-detekt: sarif exists=true size=107706
+llmdbg-detekt: sarifJson length=107706
+llmdbg-detekt: parsed 5 findings from SARIF
+  finding: DEEP_NESTING (MAJOR) file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt:18
+  finding: EMPTY_CATCH (CRITICAL) file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt:29
+  finding: TODO_FIXME (MINOR) file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt:26
+  finding: MAGIC_NUMBER (MINOR) file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt:22
+  finding: MAGIC_NUMBER (MINOR) file:///Users/denis.ambatenne/Downloads/ItWork/composeApp/src/commonMain/kotlin/org/example/project/data/WeightRepository.kt:25

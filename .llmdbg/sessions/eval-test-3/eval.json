@@ -1,0 +1,26 @@
+{
+    "session_id": "eval-test-3",
+    "project_id": "ItWork",
+    "evaluated_at": "2026-02-12T10:21:42.294028Z",
+    "dimensions": {
+        "code_smells": null,
+        "concurrency": null,
+        "build_cycles": {
+            "score": 0.8,
+            "total_attempts": 2,
+            "first_pass_attempt": 2,
+            "wasted_cycles": 1
+        },
+        "test_health": {
+            "score": 0.75,
+            "tests_pass": true,
+            "test_failures": 0,
+            "new_tests_added": false,
+            "test_lines_added": 0,
+            "test_lines_deleted": 0
+        }
+    },
+    "overall_score": 0.77,
+    "code_fix_suggestions": [],
+    "pipeline_suggestions": []
+}
